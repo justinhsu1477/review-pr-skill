@@ -1,0 +1,12 @@
+{
+  "name": "review-pr",
+  "version": "0.1.0",
+  "description": "Code review for GitHub PRs and GitLab MRs that starts from the repo's own REVIEW.md, verifies every finding, saves comments as an unsubmitted review, and writes what it learned back to REVIEW.md.",
+  "author": {
+    "name": "Justin Hsu"
+  },
+  "homepage": "https://github.com/justinhsu1477/review-pr-skill",
+  "repository": "https://github.com/justinhsu1477/review-pr-skill",
+  "license": "MIT",
+  "keywords": ["code-review", "pull-request", "merge-request", "github", "gitlab", "skills"]
+}

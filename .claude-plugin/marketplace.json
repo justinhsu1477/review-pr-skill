@@ -1,0 +1,16 @@
+{
+  "name": "review-pr-skill",
+  "description": "The review-pr skill as an installable Claude Code plugin.",
+  "owner": {
+    "name": "Justin Hsu"
+  },
+  "plugins": [
+    {
+      "name": "review-pr",
+      "source": "./",
+      "description": "Code review for GitHub PRs and GitLab MRs that starts from the repo's own REVIEW.md, verifies every finding, saves comments as an unsubmitted review, and writes what it learned back to REVIEW.md.",
+      "category": "engineering",
+      "keywords": ["code-review", "pull-request", "merge-request", "github", "gitlab"]
+    }
+  ]
+}
